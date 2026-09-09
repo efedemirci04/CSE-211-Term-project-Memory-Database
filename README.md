@@ -1,5 +1,9 @@
 # CSE 211 - In-Memory Database Project
 
+> **Bu fork hakkında:** Bu proje, CSE 211 dersi kapsamında 4 kişilik bir ekiple (Group 19) geliştirilen bir dönem projesidir. Orijinal repo: [Computer-Engineering-Yeditepe/CSE-211-Term-project-Memory-Database](https://github.com/Computer-Engineering-Yeditepe/CSE-211-Term-project-Memory-Database).
+>
+> Görev dağılımı belgesinde modüller isim isim ayrılmış olsa da, commit geçmişi asıl katkı dağılımını gösteriyor: 11 commit'in 8'i bu hesaba (Efe Demirci) ait. Kişisel olarak asıl geliştirdiğim/düzelttiğim kısımlar: **çekirdek veritabanı motoru** (`src/core` — `Table`, `Row`, `Cell` veri yapıları), **indeksleme entegrasyonu** (`HashIndex`), **HTTP/REST API backend sunucusu** (`libs/httplib.h` entegrasyonu ve endpoint'ler), genel proje dokümantasyonu, `Doxyfile`/Doxygen yapılandırması (mevcut olanı düzenledim), ve `main.cpp` ile `Makefile` üzerindeki düzeltmeler.
+
 ## Kurulum ve Çalıştırma
 
 ### Gereksinimler
